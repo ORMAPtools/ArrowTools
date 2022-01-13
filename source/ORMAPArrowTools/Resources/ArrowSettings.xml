@@ -1,0 +1,98 @@
+<?xml version="1.0" standalone="yes"?>
+<arrowTools>
+  <arrowDef>
+    <straight>
+      <segments count="1" />
+      <segment points="0,0,20,0" />
+    </straight>
+    <roadTic>
+      <segments count="1"/>
+      <segment points="0,0,5,0"/>
+    </roadTic>
+    <landHookFlipped>
+      <segments count="2" />
+      <segment points="0,0,-20,0" />
+      <segment points="-20,0,-15,5" />
+    </landHookFlipped>
+    <landHook>
+      <segments count="2" />
+      <segment points="0,0,-20,0" />
+      <segment points="-20,0,-15,-5" />
+    </landHook>
+    <curved0>
+      <segments count="10" />
+      <segment points="0,0,3.5,2" />
+      <segment points="3.5,2,6.28,3.4" />
+      <segment points="6.28,3.4,9.14,4.63" />
+      <segment points="9.14,4.63,12.08,5.67" />
+      <segment points="12.08,5.67,15.07,6.53" />
+      <segment points="15.07,6.53,18.12,7.21" />
+      <segment points="18.12,7.21,21.19,7.69" />
+      <segment points="21.19,7.69,24.29,7.98" />
+      <segment points="24.29,7.98,27.4,8" />
+      <segment points="27.4,8,31,8" />
+    </curved0>
+    <curved1>
+      <segments count="11" />
+      <segment points="0,0,3.5,2" />
+      <segment points="3.5,2,6.28,3.4" />
+      <segment points="6.28,3.4,9.14,4.63" />
+      <segment points="9.14,4.63,12.08,5.67" />
+      <segment points="12.08,5.67,15.07,6.53" />
+      <segment points="15.07,6.53,18.12,7.21" />
+      <segment points="18.12,7.21,21.19,7.69" />
+      <segment points="21.19,7.69,24.29,7.98" />
+      <segment points="24.29,7.98,27.4,8" />
+      <segment points="27.4,8,31,8" />
+      <segment points="34,8,36,8" />
+    </curved1>
+    <curved2>
+      <segments count="12" />
+      <segment points="0,0,3.5,2" />
+      <segment points="3.5,2,6.28,3.4" />
+      <segment points="6.28,3.4,9.14,4.63" />
+      <segment points="9.14,4.63,12.08,5.67" />
+      <segment points="12.08,5.67,15.07,6.53" />
+      <segment points="15.07,6.53,18.12,7.21" />
+      <segment points="18.12,7.21,21.19,7.69" />
+      <segment points="21.19,7.69,24.29,7.98" />
+      <segment points="24.29,7.98,27.4,8" />
+      <segment points="27.4,8,31,8" />
+      <segment points="34,8,36,8" />
+      <segment points="39,8,41,8" />
+    </curved2>
+    <curved3>
+      <segments count="13" />
+      <segment points="0,0,3.5,2" />
+      <segment points="3.5,2,6.28,3.4" />
+      <segment points="6.28,3.4,9.14,4.63" />
+      <segment points="9.14,4.63,12.08,5.67" />
+      <segment points="12.08,5.67,15.07,6.53" />
+      <segment points="15.07,6.53,18.12,7.21" />
+      <segment points="18.12,7.21,21.19,7.69" />
+      <segment points="21.19,7.69,24.29,7.98" />
+      <segment points="24.29,7.98,27.4,8" />
+      <segment points="27.4,8,31,8" />
+      <segment points="34,8,36,8" />
+      <segment points="39,8,41,8" />
+      <segment points="44,8,46,8" />
+    </curved3>
+    <curved4>
+      <segments count="14" />
+      <segment points="0,0,3.5,2" />
+      <segment points="3.5,2,6.28,3.4" />
+      <segment points="6.28,3.4,9.14,4.63" />
+      <segment points="9.14,4.63,12.08,5.67" />
+      <segment points="12.08,5.67,15.07,6.53" />
+      <segment points="15.07,6.53,18.12,7.21" />
+      <segment points="18.12,7.21,21.19,7.69" />
+      <segment points="21.19,7.69,24.29,7.98" />
+      <segment points="24.29,7.98,27.4,8" />
+      <segment points="27.4,8,31,8" />
+      <segment points="34,8,36,8" />
+      <segment points="39,8,41,8" />
+      <segment points="44,8,46,8" />
+      <segment points="49,8,51,8" />
+    </curved4>
+  </arrowDef>
+  </arrowTools>

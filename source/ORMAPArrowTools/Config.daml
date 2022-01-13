@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArcGIS defaultAssembly="ORMAPArrowTools.dll"
+        defaultNamespace="ORMAPArrowTools"
+        xmlns="http://schemas.esri.com/DADF/Registry"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+
+  <AddInInfo id="{6f455c9f-5889-4f84-abfc-69fef256fb98}" version="1/10/2022 09:30" desktopVersion="2.8.3">
+    <Name>ORMAP Arrow Tools</Name>
+    <Description>ORMAP Arrow Tools</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>David Howes, David Howes, LLC</Author>
+		<Company></Company>
+    <Date>1/10/2022 09:30</Date>
+    <Subject>Editing</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+
+  <modules>
+    <insertModule id="ORMAPArrowTools_Module" className="ArrowModule" autoLoad="false" caption="ArrowModule">
+      <controls>
+        <tool id="ORMAPArrowTools_SingleArrowConstructionTool" categoryRefID="esri_editing_construction_polyline" caption="Single Arrow" className="Tools.SingleArrowConstructionTool" loadOnClick="true" smallImage="Images\SingleArrow.png" largeImage="Images\SingleArrow.png">
+          <tooltip heading="Single Arrow">
+						Create a single arrow feature.
+						<disabledText /></tooltip>
+          <content guid="85802e54-53e7-4e80-b69f-8c676005abee" toolOptionsID="ORMAPArrowTools_Tools_ToolOptions" />
+        </tool>
+        <tool id="ORMAPArrowTools_Tools_DimensionArrowsConstructionTool" categoryRefID="esri_editing_construction_polyline" caption="Dimension Arrows" className="ORMAPArrowTools.Tools.DimensionArrowsConstructionTool" loadOnClick="true" smallImage="Images\DimensionArrows.png" largeImage="Images\DimensionArrows.png">
+          <tooltip heading="Dimension Arrows">
+						Create a pair of curved dimension arrow features.
+						<disabledText /></tooltip>
+          <content guid="cac53121-cdfc-496a-81f1-2cb62b99a261" toolOptionsID="ORMAPArrowTools_Tools_ToolOptions" />
+        </tool>
+        <tool id="ORMAPArrowTools_Tools_StraightArrowsConstructionTool" categoryRefID="esri_editing_construction_polyline" caption="Straight Arrows" className="ORMAPArrowTools.Tools.StraightArrowsConstructionTool" loadOnClick="true" smallImage="Images\StraightArrows.png" largeImage="Images\StraightArrows.png">
+          <tooltip heading="Straight Arrows">
+						Create a pair of opposing straight arrow features.
+						<disabledText /></tooltip>
+          <content guid="af3df5c2-667c-4bb0-b09e-4f3ec15cf57c" toolOptionsID="ORMAPArrowTools_Tools_ToolOptions" />
+        </tool>
+        <tool id="ORMAPArrowTools_Tools_LandHookConstructionTool" categoryRefID="esri_editing_construction_polyline" caption="Land Hook" className="ORMAPArrowTools.Tools.LandHookConstructionTool" loadOnClick="true" smallImage="Images\LandHook.png" largeImage="Images\LandHook.png">
+          <tooltip heading="Land Hook">
+						Create a land hook feature.
+					  <disabledText /></tooltip>
+          <content guid="7a2da36c-a2c7-4b11-b4f3-d32bdbe662af" toolOptionsID="ORMAPArrowTools_Tools_ToolOptions" />
+        </tool>
+        <tool id="ORMAPArrowTools_Tools_RoadTicConstructionTool" categoryRefID="esri_editing_construction_polyline" caption="Road Tic" className="ORMAPArrowTools.Tools.RoadTicConstructionTool" loadOnClick="true" smallImage="Images\RoadTic.png" largeImage="Images\RoadTic.png">
+          <tooltip heading="Road Tic">
+						Create a road tic feature.
+						<disabledText /></tooltip>
+          <content guid="a72fff73-b48d-4497-a27c-148691f16de2" toolOptionsID="ORMAPArrowTools_Tools_ToolOptions" />
+        </tool>
+        <dynamicMenu id="ORMAPArrowTools_Menus_ArrowContextMenu" className="Menus.ArrowContextMenu" caption="Arrow Context Menu"></dynamicMenu>
+      </controls> 
+      
+    </insertModule>
+  </modules>
+  <categories>
+    <updateCategory refID="esri_editing_tool_options">
+      <insertComponent id="ORMAPArrowTools_Tools_ToolOptions" className="ORMAPArrowTools.Tools.ToolOptionsViewModel">
+        <content className="ORMAPArrowTools.Tools.ToolOptionsView" />
+      </insertComponent>
+    </updateCategory>
+  </categories>
+</ArcGIS>
