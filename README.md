@@ -8,7 +8,8 @@ This README.md file was created using that file as a starting point.
 
 ## Set up
 
-[Download the addin](https://github.com/ORMAPtools/ArrowTools/blob/main/ORMAPArrowTools-20220110-0930.esriAddinX) from github.
+[Download the addin](https://github.com/ORMAPtools/ArrowTools/raw/main/ORMAPArrowTools-20220110-0930.esriAddinX)
+from github.
 
 There are different ways to install it. One way is to put the esriAddinX file on a server accessible by anyone
 using ArcGIS Pro, and then to set Pro to look there. In the startup screen click the "gear" icon to get to settings, and in the left navbar
