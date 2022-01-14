@@ -8,7 +8,7 @@ This README.md file was created using that file as a starting point.
 
 ## Set up
 
-[Download the addin](https://github.com/ORMAP/ArrowTools/ArrowTools-20220110-0930.esriAddinX) from github.
+[Download the addin](https://github.com/ORMAPtools/ArrowTools/blob/main/ORMAPArrowTools-20220110-0930.esriAddinX) from github.
 
 There are different ways to install it. One way is to put the esriAddinX file on a server accessible by anyone
 using ArcGIS Pro, and then to set Pro to look there. In the startup screen click the "gear" icon to get to settings, and in the left navbar
@@ -21,10 +21,10 @@ Complete ArcGIS Pro instructions on loading add-ins: [Manage add-ins](https://pr
 
 Once you have the add-in loading, the new collection of arrow tools will show up in the Create Features templates when you create line features.
 
-![Create Features template](https://github.com/ORMAP/ArrowTools/arrow_tools_template.png)
+![Create Features template](https://github.com/ORMAPtools/ArrowTools/blob/main/screenshots/arrow_tools_template.png)
 
 I am still figuring usage out! (Brian).
-For the moment, you should look in ["Arrow Tools-README-20220110-0930.txt"](https://github.com/ORMAP/ArrowTools/Arrow Tools-README-20220110-0930.txt) for more instructions.
+For the moment, you should look in ["Arrow Tools-README-20220110-0930.txt"](https://github.com/ORMAPtools/ArrowTools/blob/main/Arrow%20Tools-README-20220110-0930.txt) for more instructions.
 
 ## Developer information
 
